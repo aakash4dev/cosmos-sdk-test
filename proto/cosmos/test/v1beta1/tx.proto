@@ -1,0 +1,7 @@
+syntax = "proto3";
+package cosmos.test;
+
+option go_package = "github.com/cosmos/cosmos-sdk/x/test/types";
+
+// Msg defines the Msg service.
+service Msg {}
